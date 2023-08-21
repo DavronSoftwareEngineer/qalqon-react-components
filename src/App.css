@@ -1,0 +1,66 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+.wrapper{
+    min-width: 600px;
+    background: linear-gradient(to top right, #01265B, #010E27);
+    box-shadow: 0px 0px 5px 1px #01265B inset;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.wrapper11{
+    min-width: 550px;
+    background: linear-gradient(to top right, #01265B, #010E27);
+    box-shadow: 0px 0px 5px 1px #01265B inset;
+    padding: 50px 10px 50px 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.wrapper23{
+    min-width: 600px;
+    background: linear-gradient(to top right, #01265B, #010E27);
+    box-shadow: 0px 0px 5px 1px #01265B inset;
+    padding: 50px 40px 50px 40px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.wrapper16{
+    min-width: 550px;
+    background: linear-gradient(to top right, #01265B, #010E27);
+    box-shadow: 0px 0px 5px 1px #01265B inset;
+    padding: 90px 10px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.wrapper1{
+    width: 600px;
+    background: linear-gradient(to top right, #01265B, #010E27);
+    box-shadow: 0px 0px 5px 1px #01265B inset;
+    padding: 50px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.wrapper8{
+    min-width: 500px;
+    background: linear-gradient(to top right, #01265B, #010E27);
+    box-shadow: 0px 0px 5px 1px #01265B inset;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}

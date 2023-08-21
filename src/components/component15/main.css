@@ -1,0 +1,15 @@
+.comp-wrapper {
+    width: 23%;
+    height: 185px;
+    box-sizing: border-box;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.comp-wrapper .rectangle {
+    clip-path: polygon(8% 0, 93% 0, 100% 100%, 0% 100%);
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to top, #002A90, #09184a84);
+    transform: rotateX(80deg);
+}

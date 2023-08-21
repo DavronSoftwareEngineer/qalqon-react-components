@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&family=Taviraj:wght@100;200;300;400;500;600;700&display=swap');
+
+.container-comp{
+    width: 450px;
+    perspective: 1000px;
+    position: relative;
+    position: absolute;
+    top: -105px;
+    left: -165px;
+}
+.container-comp #frames-comp {
+    width: 44px;
+    transform-style: preserve-3d;
+    transform: rotateX(-10deg) rotateY(30deg) rotateZ(0deg)
+    translate3d(230px, 75px, 0px);
+}
+.container-comp #frames-comp .strip-comp{
+    transform-style: preserve-3d;
+    animation: spin1 10s infinite linear;
+}
+
+.container-comp #frames-comp .strip-comp div {
+    position: absolute;
+    left: 10px;                 
+    background: rgb(0, 89, 211, 0.2);
+    height: 150px;
+    width: 16px;
+}
+
+
+.container-comp #frames-comp .strip-comp .s1 {
+    background-position: 913px;
+    transform: rotateY(0deg) translateZ(60px);
+}
+
+.container-comp #frames-comp .strip-comp .s2 {
+    background-position: 860px;
+    transform: rotateY(15deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s3 {
+    background-position: 807px;
+    transform: rotateY(30deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s4 {
+    background-position: 754px;
+    transform: rotateY(45deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s5 {
+    background-position: 701px;
+    transform: rotateY(60deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s6 {
+    background-position: 648px;
+    transform: rotateY(75deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s7 {
+    background-position: 595px;
+    transform: rotateY(90deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s8 {
+    background-position: 542px;
+    transform: rotateY(105deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s9 {
+    background-position: 490px;
+    transform: rotateY(120deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s10 {
+    background-position: 437px;
+    transform: rotateY(135deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s11 {
+    background-position: 384px;
+    transform: rotateY(150deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s12 {
+    background-position: 331px;
+    transform: rotateY(165deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s13 {
+    background-position: 278px;
+    transform: rotateY(180deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s14 {
+    background-position: 225px;
+    transform: rotateY(195deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s15 {
+    background-position: 172px;
+    transform: rotateY(210deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s16 {
+    background-position: 119px;
+    transform: rotateY(225deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s17 {
+    background-position: 66px;
+    transform: rotateY(240deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s18 {
+    background-position: 13px;
+    transform: rotateY(255deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s19 {
+    background-position: -40px;
+    transform: rotateY(270deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s20 {
+    background-position: -93px;
+    transform: rotateY(285deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s21 {
+    background-position: -146px;
+    transform: rotateY(300deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s22 {
+    background-position: -199px;
+    transform: rotateY(315deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s23 {
+    background-position: -252px;
+    transform: rotateY(330deg) translateZ(60px);
+}
+.container-comp #frames-comp .strip-comp .s24 {
+    background-position: -305px;
+    transform: rotateY(345deg) translateZ(60px);
+}
+
+

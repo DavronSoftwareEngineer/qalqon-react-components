@@ -1,0 +1,104 @@
+@import url('https://db.onlinewebfonts.com/c/2791267c488b942eb80f4f69ea85603e?family=MrAlex-Regular');
+
+*{
+    box-sizing: border-box;
+}
+.wrapper-comp23{
+ width: 100%;
+ position: relative;
+}
+
+.wrapper-comp23 .effect{
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
+    width: 195%;
+    height: 120px;
+    background: linear-gradient(0deg, rgba(0, 42, 144, 0.3), rgba(24, 74, 132, 0));
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.wrapper-comp23 .effect .wrap-number{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.wrapper-comp23 .effect .wrap-number .number{
+    color: #fff;
+    font-size: 2.5rem;
+    word-wrap: break-word;
+    letter-spacing: 2px;
+    align-items: center;
+    font-family: 'MrAlex-Regular', serif;
+}
+.wrapper-comp23 .terapetsiya{
+    clip-path: polygon(26% 0, 74% 0, 100% 100%, 0% 100%);
+    width: 100%;
+    height: 120px;
+    background-color:  #002A90;
+    transform: rotateX(75deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wrapper-comp23 .tortburchak{
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(180deg, #002A90, rgba(24, 74, 132, 0));
+    position: absolute;
+    top: 63%;
+    left: 0%;
+    border-bottom: 1px solid blue;
+}
+
+.wrapper-comp23 .tortburchak .dot1{
+    width: 20px;
+    height: 2px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px 3px #fff;
+    display: block;
+    position: absolute;
+    transform: translateX(-50%);
+    animation: dott 8s linear infinite;
+}
+
+@keyframes dott {
+    0%{
+        bottom: -1px;
+        left: 5px;
+        box-shadow: 0px 0px 12px 2px #fff, 80px -30px 55px 18px #fff;
+    }
+    50%{
+        bottom: -1px;
+        left: 98%;
+        box-shadow: 0px 0px 12px 2px #fff, -80px -30px 55px 18px #fff;  
+    }
+    100%{
+        bottom: -1px;
+        left: 5px;
+        box-shadow: 0px 0px 12px 2px #fff, 80px -30px 55px 18px #fff;
+    }
+}
+.wrapper-comp23 .tortburchak .wrap-title{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding-bottom: 10px;   
+}
+.wrapper-comp23 .tortburchak .wrap-title .title{
+    color: #fff;
+    font-size: 1.2rem;
+    word-wrap: break-word;
+    letter-spacing: 2px;
+    align-items: center;
+    font-family: 'MrAlex-Regular', serif;
+}

@@ -1,0 +1,223 @@
+@import url('https://db.onlinewebfonts.com/c/2791267c488b942eb80f4f69ea85603e?family=MrAlex-Regular');
+
+.hexagon1{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    width: 180px;
+    height: 150px;
+    background-color: blue;
+    transform: rotateX(70deg);
+    position: relative;
+    background: linear-gradient(to top, #002A90, #09184a84);
+}
+
+.hexagon2{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    width: 140px;
+    height: 110px;
+    transform: rotateX(20deg);
+    background: linear-gradient(to top, #0060ff, #09184a84);
+    position: relative;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.hexagon3{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    width: 130px;
+    height: 100px;
+    transform: rotateX(20deg);
+    background: linear-gradient(to top, #002A90, #09184a84);
+    position: relative;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+
+.hexagon4{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    width: 120px;
+    height: 90px;
+    /* background-color: blue; */
+    transform: rotateX(20deg);
+    background: linear-gradient(to top, #0060ff, #09184a84);
+    position: relative;
+    position: absolute;
+    top: 1px;
+    left: 5px;
+}
+.hexagon5{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    width: 110px;
+    height: 80px;
+    background-color: blue;
+    transform: rotateX(20deg);
+    background: linear-gradient(to top, #002A90, #09184a84);
+    position: relative;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+.hexagon6{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    width: 100px;
+    height: 80px;
+    /* background-color: blue; */
+    transform: rotateX(20deg);
+    background: linear-gradient(to top, #fff, #09184a84);
+    position: relative;
+    position: absolute;
+    top: -5px;
+    left: 5px;
+}
+.hexagon7{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    width: 92px;
+    height: 75px;
+    transform: rotateX(20deg);
+    background: linear-gradient(to top, #002A90, #09184a84);
+    position: absolute;
+    top: 2px;
+    left: 4px;
+}
+
+.wrap-shakil {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    width: 100%;
+    height: 100%;
+    transform: rotateZ(90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.shakil {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    width: 80px;
+    height: 75px;
+    background-color: #000;                    
+    box-shadow: 2px 2px 30px 10px #0247FE inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 1;
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0; */
+    color: #fff;
+}
+
+.wrap-shakil .spn1{
+    width: 45px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    left: 23px;
+    
+}
+.wrap-shakil .spn11{
+    width: 45px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 23px;
+    
+}
+
+.wrap-shakil .spn6{
+    width: 38px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    position: relative;
+    position: absolute;
+    bottom: 10px;
+    left: -1px;
+    transform: rotateZ(63deg);
+}
+
+.wrap-shakil .spn7{
+    width: 38px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    right: -1px;
+    transform: rotateZ(-62deg);
+    
+}
+
+.wrap-shakil .spn8{
+    width: 38px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: -1px;
+    transform: rotateZ(-62deg);
+    
+}
+.wrap-shakil .spn9{
+    width: 38px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: -1px;
+    transform: rotateZ(62deg);
+    
+}
+
+
+.wrap-shakil .spn2{
+    width: 14px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    position: absolute;
+    left: -4px;
+    bottom: 40px;
+    transform: rotateZ(65deg);
+    
+}
+.wrap-shakil .spn3{
+    width: 18px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    position: absolute;
+    left: -7px;
+    bottom: 47px;
+    transform: rotateZ(-65deg);
+    
+}
+.wrap-shakil .spn4{
+    width: 13px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    position: absolute;
+    right: -3px;
+    bottom: 39px;
+    transform: rotateZ(-65deg);
+    
+}
+.wrap-shakil .spn5{
+    width: 18px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    position: absolute;
+    right: -7px;
+    bottom: 47px;
+    transform: rotateZ(65deg);
+    
+}

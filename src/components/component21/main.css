@@ -1,0 +1,102 @@
+@import url('https://db.onlinewebfonts.com/c/2791267c488b942eb80f4f69ea85603e?family=MrAlex-Regular');
+
+.line-shape {
+    width: 100%;
+    position: relative;
+    /* border: 1px solid red; */
+    /* transform: rotateX(180deg); */
+}
+
+.line-shape .wrap-shape {
+    clip-path: polygon(16% 0, 34% 0, 39% 6%, 59% 6%, 64% 0, 84% 0, 100% 100%, 74% 100%, 70% 91%, 28% 91%, 24% 100%, 0 100%);
+    width: 100%;
+    height: 65px;
+    background-color: #0070FF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.line-shape .wrap-shape:hover .inset-shape .element {
+    box-shadow: 0px -30px 40px 15px rgba(255, 255, 255, 0.8);
+}
+
+.line-shape .wrap-shape:hover .inset-shape .line-shape-title .shape-title {
+    color: #0070FF;
+}
+.line-shape .wrap-shape:hover .inset-shape .line-shape-title .shape-number {
+    color: #0070FF;
+}
+
+.line-shape .element-shape1 {
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+    width: 26.5%;
+    height: 3px;
+    background-color: #0070FF;
+    position: absolute;
+    top: -2%;
+    left: 49%;
+    transform: translateX(-50%);
+}
+
+.line-shape .element-shape2 {
+    clip-path: polygon(6% 0, 94% 0, 100% 100%, 0% 100%);
+    width: 45%;
+    height: 5px;
+    background-color: #0070FF;
+    position: absolute;
+    bottom: -1px;
+    left: 49%;
+    transform: translateX(-50%);
+}
+
+.line-shape .wrap-shape .inset-shape {
+    width: 96%;
+    height: 96%;
+    background-color: #002A90;
+    position: relative;
+    border-radius: 5px;
+    clip-path: polygon(16% 0, 34% 0, 39% 6%, 59% 6%, 64% 0, 84% 0, 100% 100%, 74% 100%, 70% 91%, 28% 91%, 24% 100%, 0 100%);
+}
+
+.line-shape .wrap-shape .inset-shape .element {
+    width: 50%;
+    height: 3px;
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.line-shape .wrap-shape .inset-shape .line-shape-title {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.line-shape .wrap-shape .inset-shape .line-shape-title .shape-title {
+    margin: 0;
+    word-wrap: break-word;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.line-shape .wrap-shape .inset-shape .line-shape-title .shape-number {
+    margin: 0;
+    word-wrap: break-word;
+    font-size: 1.5rem;
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'MrAlex-Regular', serif;
+}
